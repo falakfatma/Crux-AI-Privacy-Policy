@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Crux AI: Smart Webpage & Article Summarizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            color: #1a1a2e;
+            background-color: #f8f9fc;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #ffffff;
+            padding: 48px 24px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .effective-date {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 6px 16px;
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 780px;
+            margin: -32px auto 60px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+            padding: 48px 40px;
+        }
+
+        @media (max-width: 640px) {
+            main {
+                margin: -24px 12px 40px;
+                padding: 32px 20px;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+
+        section {
+            margin-bottom: 36px;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #0f3460;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8ecf4;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        ul {
+            margin: 12px 0;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        li strong {
+            color: #1a1a2e;
+        }
+
+        a {
+            color: #0f3460;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        a:hover {
+            color: #e94560;
+        }
+
+        .intro {
+            font-size: 1.05rem;
+            color: #444;
+            border-left: 4px solid #0f3460;
+            padding-left: 16px;
+            margin-bottom: 32px;
+        }
+
+        .highlight-box {
+            background: #f0f4ff;
+            border: 1px solid #d6dfef;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #1a1a2e;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Privacy Policy</h1>
+    <p>Crux AI: Smart Webpage &amp; Article Summarizer</p>
+    <span class="effective-date">Effective Date: February 21, 2026</span>
+</header>
+
+<main>
+    <p class="intro">
+        This Privacy Policy describes how <strong>Crux AI: Smart Webpage &amp; Article Summarizer</strong>
+        ("the Extension", "we", "our", or "us") handles information when you use our Chrome extension.
+        We are committed to protecting your privacy and being transparent about our data practices.
+    </p>
+
+    <!-- 1. Overview -->
+    <section>
+        <h2>1. Overview</h2>
+        <p>
+            Crux AI is an AI-powered browser extension that summarizes webpages, articles, and blogs.
+            It allows users to extract key points, ask questions, and identify core insights from any webpage.
+            The Extension is designed with a privacy-first approach — we do not collect, store, or transmit
+            any personal data.
+        </p>
+    </section>
+
+    <!-- 2. What Data Is Collected -->
+    <section>
+        <h2>2. What Data Is Collected</h2>
+        <div class="highlight-box">
+            <p>We do not collect any personal data, browsing history, analytics, or personally identifiable information.</p>
+        </div>
+        <p>When you use the Extension, the following data is processed <strong>locally on your device</strong> or sent <strong>directly to your chosen AI provider</strong>:</p>
+        <ul>
+            <li>
+                <strong>Webpage text content:</strong> When you click the Extension and request a summary or ask a question,
+                the text content of the currently active webpage is extracted. This text is sent directly to the third-party
+                AI API you have selected (Google Gemini, OpenAI, or Anthropic) solely for generating a summary or answering
+                your question. The Extension does not store this text after the request is completed.
+            </li>
+            <li>
+                <strong>User preferences:</strong> Your API key, selected AI provider, and chosen model are stored locally
+                in your browser using <code>chrome.storage.local</code>. These preferences never leave your device except
+                when your API key is sent to the respective AI provider to authenticate your request.
+            </li>
+        </ul>
+        <p>The Extension does <strong>not</strong> collect:</p>
+        <ul>
+            <li>Personal information (name, email, address, phone number, etc.)</li>
+            <li>Browsing history or activity</li>
+            <li>User accounts or login credentials</li>
+            <li>Analytics, telemetry, or usage statistics</li>
+            <li>Cookies or tracking data</li>
+        </ul>
+    </section>
+
+    <!-- 3. How Data Is Used -->
+    <section>
+        <h2>3. How Data Is Used</h2>
+        <p>Data processed by the Extension is used exclusively for the following purposes:</p>
+        <ul>
+            <li>
+                <strong>Generating summaries and answering questions:</strong> Extracted webpage text is sent to the
+                AI provider you have chosen so that a summary or answer can be returned to you.
+            </li>
+            <li>
+                <strong>Storing your preferences:</strong> Your API key, provider selection, and model choice are saved
+                locally so you do not need to re-enter them each time you use the Extension.
+            </li>
+        </ul>
+        <p>
+            No data is used for advertising, profiling, marketing, or any purpose other than the core functionality
+            described above.
+        </p>
+    </section>
+
+    <!-- 4. Third-Party Services -->
+    <section>
+        <h2>4. Third-Party Services</h2>
+        <p>
+            The Extension connects to one of the following third-party AI services based on your selection.
+            <strong>You provide your own API key</strong> to authenticate with these services:
+        </p>
+        <ul>
+            <li><strong>Google Gemini API</strong> — <a href="https://ai.google.dev/terms" target="_blank" rel="noopener noreferrer">Google AI Terms of Service</a></li>
+            <li><strong>OpenAI API</strong> — <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer">OpenAI Privacy Policy</a></li>
+            <li><strong>Anthropic API</strong> — <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener noreferrer">Anthropic Privacy Policy</a></li>
+        </ul>
+        <p>
+            When a summary or question is requested, the extracted webpage text and your API key are sent directly to the
+            selected provider's API endpoint. The handling of that data by the provider is governed by the provider's own
+            privacy policy and terms of service. We encourage you to review the privacy policy of your chosen provider.
+        </p>
+        <p>
+            No data is sent to any other third-party service, server, or endpoint operated by us or anyone else.
+        </p>
+    </section>
+
+    <!-- 5. Permissions Used -->
+    <section>
+        <h2>5. Permissions Used</h2>
+        <p>The Extension requests the following Chrome permissions, each for a specific and limited purpose:</p>
+        <ul>
+            <li>
+                <strong><code>activeTab</code></strong> — Grants temporary access to the content of the currently active
+                tab only when you click the Extension. This allows the Extension to read the webpage text for summarization.
+                It does not provide access to other tabs or persistent background access.
+            </li>
+            <li>
+                <strong><code>scripting</code></strong> — Used to inject a content script into the active tab to extract
+                the visible text content of the page. This script runs only when you initiate a summary or question request.
+            </li>
+            <li>
+                <strong><code>storage</code></strong> — Used to save your preferences (API key, selected AI provider, and
+                model choice) locally in your browser via <code>chrome.storage.local</code>. No data is synced or transmitted.
+            </li>
+        </ul>
+    </section>
+
+    <!-- 6. Data Storage -->
+    <section>
+        <h2>6. Data Storage</h2>
+        <p>
+            All user preferences (API key, provider selection, and model choice) are stored locally on your device using
+            Chrome's built-in <code>chrome.storage.local</code> API. This data remains on your machine and is not transmitted
+            to any external server operated by us.
+        </p>
+        <p>
+            Webpage text extracted for summarization is held only in memory for the duration of the API request and is not
+            persisted to disk, local storage, or any external database.
+        </p>
+    </section>
+
+    <!-- 7. Data Security -->
+    <section>
+        <h2>7. Data Security</h2>
+        <p>
+            We take reasonable measures to protect the data handled by the Extension:
+        </p>
+        <ul>
+            <li>All API communications with third-party AI providers are transmitted over encrypted HTTPS connections.</li>
+            <li>Your API key is stored only in <code>chrome.storage.local</code>, which is sandboxed to the Extension and inaccessible to other extensions or websites.</li>
+            <li>No data is stored on external servers, databases, or cloud services operated by us.</li>
+            <li>The Extension does not include any analytics, tracking, or telemetry code.</li>
+        </ul>
+        <p>
+            While we strive to protect your information, please be aware that no method of electronic transmission or
+            storage is 100% secure. You are responsible for keeping your API key confidential.
+        </p>
+    </section>
+
+    <!-- 8. Data Sharing and Transfers -->
+    <section>
+        <h2>8. Data Sharing and Transfers</h2>
+        <div class="highlight-box">
+            <p>We do not sell, trade, rent, or transfer your data to any third party.</p>
+        </div>
+        <p>
+            The only external transmission of data occurs when webpage text is sent to the AI provider you have selected
+            for the purpose of generating a summary or answering a question. This is initiated solely by your action and
+            is necessary for the Extension to function.
+        </p>
+    </section>
+
+    <!-- 9. Children's Privacy -->
+    <section>
+        <h2>9. Children's Privacy</h2>
+        <p>
+            The Extension is not directed at children under the age of 13. We do not knowingly collect personal information
+            from children. Since the Extension does not collect any personal information from any user, there is no risk of
+            inadvertently collecting data from minors. If you believe a child has somehow provided personal information through
+            the Extension, please contact us and we will take steps to address the concern.
+        </p>
+    </section>
+
+    <!-- 10. Changes to This Privacy Policy -->
+    <section>
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational,
+            legal, or regulatory reasons. Any changes will be posted on this page with a revised "Effective Date" at the top.
+            We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your
+            information.
+        </p>
+        <p>
+            Your continued use of the Extension after any changes to this Privacy Policy constitutes your acceptance of the
+            updated policy.
+        </p>
+    </section>
+
+    <!-- 11. Contact Information -->
+    <section>
+        <h2>11. Contact Information</h2>
+        <p>
+            If you have any questions, concerns, or requests regarding this Privacy Policy or the Extension's data practices,
+            please contact us at:
+        </p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:falakfatma510@gmail.com">falakfatma510@gmail.com</a>
+        </p>
+    </section>
+</main>
+
+<footer>
+    &copy; 2026 Crux AI: Smart Webpage &amp; Article Summarizer. All rights reserved.
+</footer>
+
+</body>
+</html>
